@@ -1,0 +1,8 @@
+.userInfo {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: middle;
+    padding-right: 20px;
+}

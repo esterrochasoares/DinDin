@@ -1,0 +1,32 @@
+.filtrar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #FAFAFA;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.options {
+    margin-top: 10px;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.option {
+    background-color: var(--secondary-color);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.selected {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}

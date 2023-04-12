@@ -1,0 +1,16 @@
+@import 'page.css';
+
+.content-left {
+    width: 50%;
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content-right {
+    width: 50%;
+    display: flex;
+    border-radius: 10px;
+}

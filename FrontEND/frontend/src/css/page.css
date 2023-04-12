@@ -1,0 +1,101 @@
+:root {
+    --primary-color: #7978D9;
+    --secondary-color: #FFFFFF;   
+}
+
+body {
+    margin: 0%;
+  }
+  
+  .background {
+    background-image: url("../assets/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+  }
+  
+  .logo {
+    padding: 30px;
+    height: 30px;
+    width: 100px;
+  }
+  
+  .content {
+    padding: 50px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+
+.card {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: var(--secondary-color);
+  margin: 100px;
+  padding: 10px;
+}
+
+.highlight {
+  color: var(--primary-color);
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 46px;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.label {
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #000000;
+  text-align: start;
+}
+
+.input {
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.button {
+  all: unset;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.cardCenter {
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.message {
+  color: #FF576B;
+}

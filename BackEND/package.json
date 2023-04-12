@@ -1,0 +1,30 @@
+{
+  "name": "desafio-backend-03-dindin-t09",
+  "version": "1.0.0",
+  "description": "![](https://i.imgur.com/xG74tOh.png)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anapaulasouzasantos/desafio-backend-03-dindin-t09.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anapaulasouzasantos/desafio-backend-03-dindin-t09/issues"
+  },
+  "homepage": "https://github.com/anapaulasouzasantos/desafio-backend-03-dindin-t09#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}

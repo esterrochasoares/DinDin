@@ -1,0 +1,30 @@
+@import 'page.css';
+
+.roundBorders {
+    background-color: var(--secondary-color);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.summaryAndButton {
+    width: 25%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.centerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

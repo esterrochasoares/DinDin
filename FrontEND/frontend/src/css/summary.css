@@ -1,0 +1,17 @@
+.summary {
+    padding: 20px;
+    width: 100%;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 20%;
+    border-radius: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
